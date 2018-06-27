@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bitstream.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="lodepng.cpp" />
+    <ClCompile Include="mian.cpp" />
+    <ClCompile Include="PNG.cpp" />
+    <ClCompile Include="steganography.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitstream.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="lodepng.h" />
+    <ClInclude Include="PNG.h" />
+    <ClInclude Include="steganography.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{304184F0-9838-42EC-80E2-37431F0125E5}</ProjectGuid>
@@ -138,8 +153,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
