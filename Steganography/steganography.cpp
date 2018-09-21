@@ -44,7 +44,7 @@ void steganography::encode()
 		for (int j = 7; j > -1; j--)
 		{
 			if (bs[j] == true)
-				png.image[i * 4 + j] &= 255;
+				png.image[i * 4 + j] |= 1;
 			else
 				png.image[i * 4 + j] &= 254;
 		}
